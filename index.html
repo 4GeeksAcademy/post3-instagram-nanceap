@@ -28,9 +28,9 @@
             <div class="collapse navbar-collapse" id="navbarScroll">
                 <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;"></ul>
 
-                <div class="d-md-flex justify-content-md-end">
+                <div class="d-flex align-items-center gap-4">
                     
-                    <button type="button" class="btn btn-success me-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <button type="button" class="btn btn-success px-3" style="height: 42px;" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         Create a new post
                     </button>
 
@@ -61,18 +61,18 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle me-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <i class="fa-solid fa-gear"></i>
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item active" href="#">Profile</a></li>
-                            <li><a class="dropdown-item" href="#">Accessibility</a></li>
-                            <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item text-danger" href="#">Log out</a></li>
-                        </ul>
+                      <button class="btn btn-secondary d-flex align-items-center px-3" style="height: 42px;" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <i class="fa-solid fa-gear"></i>
+                          <i class="fa-solid fa-caret-down"></i>
+                      </button>
+                      <ul class="dropdown-menu dropdown-menu-end">
+                          <li><a class="dropdown-item active" href="#">Profile</a></li>
+                          <li><a class="dropdown-item" href="#">Accessibility</a></li>
+                          <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item text-danger" href="#">Log out</a></li>
+                      </ul>
                     </div>
                 </div>
             </div>
